@@ -89,7 +89,7 @@ def Main():
     try:
         cnx = pymysql.connect(host = 'localhost',
                               user = "root",
-                              password = "TacoKeane1717!",
+                              password = "FILL PASSWORD HERE",
                               db = 'library', charset = 'utf8mb4',
                               cursorclass = pymysql.cursors.DictCursor)
     
